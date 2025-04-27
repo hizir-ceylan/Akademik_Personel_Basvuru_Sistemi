@@ -1,0 +1,42 @@
+.tablo5 {
+    padding: 20px;
+  }
+  
+  .tablo5 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .puan-tablosu {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .puan-tablosu td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .genel-toplam td {
+    background-color: #006633;
+    color: white;
+  }
+  
+  .pdf-btn {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .pdf-btn:hover {
+    background-color: #2c80b4;
+  }
+  

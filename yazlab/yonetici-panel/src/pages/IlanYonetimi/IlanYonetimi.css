@@ -1,0 +1,183 @@
+.ilan-yonetimi {
+  padding: 20px;
+}
+
+.ilan-yonetimi h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.yeni-ilan-btn {
+  background-color: #006633;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.yeni-ilan-btn:hover {
+  background-color: #004d26;
+}
+
+.ilan-listesi {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ilan-karti {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ilan-karti h3 {
+  margin: 0 0 10px 0;
+  color: #006633;
+}
+
+.ilan-karti p {
+  margin: 4px 0;
+  color: #444;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.modal h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #006633;
+}
+
+.modal input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.kaydet-btn {
+  background-color: #006633;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.iptal-btn {
+  background-color: #ccc;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sil-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.sil-btn:hover {
+  background-color: #c0392b;
+}
+
+.duzenle-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.duzenle-btn:hover {
+  background-color: #2c80b4;
+}
+
+.kart-butonlar {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.ilan-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.ilan-form input, .ilan-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.ilan-form button {
+  background-color: #006633;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ilan-listesi {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ilan-karti {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ilan-form select {
+  padding: 10px;
+  font-size: 16px;
+}

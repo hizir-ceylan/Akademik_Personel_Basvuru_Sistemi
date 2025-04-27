@@ -1,0 +1,44 @@
+.juri-yonetimi {
+    padding: 20px;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .juri-listesi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .juri-karti {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .juri-karti button {
+    margin-top: 10px;
+    background-color: #006633;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .juri-karti button:disabled {
+    background-color: #999;
+  }
+  
+  .atanan-juri-listesi {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
