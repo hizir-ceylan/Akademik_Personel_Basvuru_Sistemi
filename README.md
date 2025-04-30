@@ -150,6 +150,7 @@ npm run dev
 - https://expressjs.com/en/guide/routing.html
 - https://docs.aws.amazon.com/s3/
 - https://firebase.google.com/docs/cloud-messaging?hl=tr
+- http://technopat.net/sosyal/konu/e-devlet-api-entegrasyonu.3068959/
 
 ## 📣 Lisans
 Bu proje sadece akademik amaçla geliştirilmiştir. İzinsiz ticari kullanımı yasaktır.
