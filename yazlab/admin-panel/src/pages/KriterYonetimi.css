@@ -1,0 +1,36 @@
+.kriter-yonetimi {
+    padding: 20px;
+    margin-top: 80px; /* Navbar varsa alta inmesi için */
+  }
+  
+  .kriter-tablosu {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .kriter-tablosu th,
+  .kriter-tablosu td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .kriter-tablosu th {
+    background-color: #006633;
+    color: white;
+  }
+  
+  .kriter-tablosu input {
+    width: 70px;
+    padding: 4px;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
