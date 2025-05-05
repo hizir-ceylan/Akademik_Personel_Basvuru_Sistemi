@@ -28,7 +28,7 @@ Geleneksel olarak fiziksel belgelerle yürütülen akademik başvuru süreci, be
 | Katman            | Teknoloji                            |
 |------------------|--------------------------------------|
 | **Frontend**     | React.js, React Router v6, Axios     |
-| **Backend**      | Node.js, Express.js, RESTful API     |
+| **Backend**      | Node.js, Express.js,    |
 | **Veritabanı**   | PostgreSQL                           |
 | **Kimlik Doğrulama** | JWT (JSON Web Token)             |
 | **Dosya Depolama**| AWS S3                              |
