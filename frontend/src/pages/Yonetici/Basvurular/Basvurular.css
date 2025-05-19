@@ -1,0 +1,62 @@
+.basvurular {
+  padding: 20px;
+}
+
+.basvurular h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.basvuru-tablosu {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.basvuru-tablosu th,
+.basvuru-tablosu td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.basvuru-tablosu th {
+  background-color: #006633;
+  color: white;
+}
+
+.incele-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

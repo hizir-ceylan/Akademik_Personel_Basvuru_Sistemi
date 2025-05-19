@@ -1,0 +1,74 @@
+.aday-sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #006633;
+    color: white;
+    padding: 30px 20px 20px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .aday-sidebar-logo {
+    width: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  
+  .aday-sidebar h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .aday-user-info {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .aday-logout-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .aday-logout-button {
+    background-color: #eeeeee;
+    border: none;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .aday-logout-button:hover {
+    background-color: #dddddd;
+  }
+  
+  .aday-sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .aday-sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .aday-sidebar nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  

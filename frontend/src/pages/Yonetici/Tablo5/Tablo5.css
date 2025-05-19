@@ -1,0 +1,42 @@
+.tablo5 {
+  padding: 20px;
+}
+
+.tablo5-tablosu {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tablo5-tablosu th,
+.tablo5-tablosu td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.tablo5-tablosu th {
+  background-color: #f0f0f0;
+}
+.pdf-button {
+  margin-bottom: 20px;
+  background-color: #006633;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.pdf-button:hover {
+  background-color: #004d26;
+}
+.kategori-grubu h2 {
+  color: #006633;
+  margin-bottom: 10px;
+}
+.tablo5-aciklama {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 20px;
+}

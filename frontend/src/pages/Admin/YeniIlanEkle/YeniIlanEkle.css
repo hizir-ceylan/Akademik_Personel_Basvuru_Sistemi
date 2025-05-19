@@ -1,0 +1,67 @@
+body, html {
+  overflow-y: hidden; /* Dikey kaydırmayı engeller */
+  height: 100vh;
+}
+
+.ekle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: calc(100vh - 80px); /* navbar yüksekliğini düşünerek */
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+  
+  .ekle-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #006400;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .ekle-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-top: -10px; /* KUTUYU YUKARI ÇEKME */
+  }
+  
+  .ekle-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .ekle-form label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .ekle-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  .ekle-form button {
+    margin-top: 16px;
+    padding: 10px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .ekle-form button:hover {
+    background-color: #004d00;
+  }
+  

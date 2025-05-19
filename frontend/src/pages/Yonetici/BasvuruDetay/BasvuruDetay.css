@@ -1,0 +1,38 @@
+.basvuru-detay {
+  padding: 20px;
+}
+
+.basvuru-detay h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.basvuru-bilgisi {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+}
+
+.basvuru-bilgisi p {
+  margin: 8px 0;
+}
+
+.detay-tablosu {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background: white;
+}
+
+.detay-tablosu th,
+.detay-tablosu td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.detay-tablosu th {
+  background-color: #006633;
+  color: white;
+}

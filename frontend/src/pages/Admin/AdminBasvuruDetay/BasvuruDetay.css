@@ -1,0 +1,49 @@
+.basvuru-wrapper {
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  
+  .basvuru-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00703c;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .basvuru-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .loading-text,
+  .no-data-text {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .basvuru-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  
+  .basvuru-table thead {
+    background-color: #f1f1f1;
+  }
+  
+  .basvuru-table th,
+  .basvuru-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .basvuru-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  

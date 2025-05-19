@@ -1,0 +1,72 @@
+.basvuru-yap {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.basvuru-yap h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #003b1f;
+}
+
+.kriter-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.kriter-item h4 {
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.belge-formu {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.belge-formu input[type="text"],
+.belge-formu input[type="number"] {
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 4px 6px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+}
+
+.belge-formu label {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button[type="button"] {
+  background-color: #006d3e;
+  color: white;
+  font-weight: bold;
+}
+
+button[type="button"]:hover {
+  background-color: #004c2b;
+}
+
+.belge-formu button {
+  background-color: crimson;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.belge-formu button:hover {
+  background-color: darkred;
+}
