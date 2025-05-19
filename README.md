@@ -131,7 +131,7 @@ Geleneksel olarak fiziksel belgelerle yürütülen akademik başvuru süreci, be
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 ### Backend (Node.js + Express)
@@ -139,7 +139,7 @@ npm start
 ```bash
 cd backend
 npm install
-npm run dev
+node server.js
 ```
 
 ## 🔍 Kaynakça
